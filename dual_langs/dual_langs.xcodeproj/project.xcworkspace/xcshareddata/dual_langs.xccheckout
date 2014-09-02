@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B550B696-35A2-49B7-936C-38FF914BEA1C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>dual_langs</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5EAE4FD6D1FF9CA35E3BD4D0CE565207760AEF23</key>
+		<string>github.com:ryanpoplin/dual_langs.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>dual_langs/dual_langs.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5EAE4FD6D1FF9CA35E3BD4D0CE565207760AEF23</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ryanpoplin/dual_langs.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5EAE4FD6D1FF9CA35E3BD4D0CE565207760AEF23</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5EAE4FD6D1FF9CA35E3BD4D0CE565207760AEF23</string>
+			<key>IDESourceControlWCCName</key>
+			<string>dual_langs</string>
+		</dict>
+	</array>
+</dict>
+</plist>

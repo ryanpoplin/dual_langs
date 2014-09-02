@@ -12,6 +12,7 @@
 		5AFF167319B5642100BC6243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF167119B5642100BC6243 /* Main.storyboard */; };
 		5AFF167519B5642100BC6243 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF167419B5642100BC6243 /* Images.xcassets */; };
 		5AFF168119B5642200BC6243 /* dual_langsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF168019B5642200BC6243 /* dual_langsTests.swift */; };
+		5AFF168D19B5654100BC6243 /* ObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF168C19B5654100BC6243 /* ObjCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,9 @@
 		5AFF167A19B5642200BC6243 /* dual_langsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dual_langsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFF167F19B5642200BC6243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AFF168019B5642200BC6243 /* dual_langsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dual_langsTests.swift; sourceTree = "<group>"; };
+		5AFF168A19B5654100BC6243 /* dual_langs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dual_langs-Bridging-Header.h"; sourceTree = "<group>"; };
+		5AFF168B19B5654100BC6243 /* ObjCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCViewController.h; sourceTree = "<group>"; };
+		5AFF168C19B5654100BC6243 /* ObjCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,9 @@
 				5AFF167119B5642100BC6243 /* Main.storyboard */,
 				5AFF167419B5642100BC6243 /* Images.xcassets */,
 				5AFF166B19B5642100BC6243 /* Supporting Files */,
+				5AFF168B19B5654100BC6243 /* ObjCViewController.h */,
+				5AFF168C19B5654100BC6243 /* ObjCViewController.m */,
+				5AFF168A19B5654100BC6243 /* dual_langs-Bridging-Header.h */,
 			);
 			path = dual_langs;
 			sourceTree = "<group>";
@@ -210,6 +217,7 @@
 			files = (
 				5AFF167019B5642100BC6243 /* ViewController.swift in Sources */,
 				5AFF166E19B5642100BC6243 /* AppDelegate.swift in Sources */,
+				5AFF168D19B5654100BC6243 /* ObjCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,9 +335,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = dual_langs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dual_langs/dual_langs-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -338,9 +349,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = dual_langs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dual_langs/dual_langs-Bridging-Header.h";
 			};
 			name = Release;
 		};
