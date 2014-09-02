@@ -10,4 +10,7 @@
 
 @interface ObjCViewController : UIViewController
 
+// -(void)cHacker;
+-(void)cPlusPlusHacker;
+
 @end

@@ -7,6 +7,8 @@
 //
 
 #import "ObjCViewController.h"
+// #import "c_hacker.h"
+#import "CPlusPlusHacker.h"
 
 @interface ObjCViewController ()
 
@@ -15,16 +17,26 @@
 @implementation ObjCViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor redColor];
     
     // Do any additional setup after loading the view.
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+/*-(void)cHacker {
+    addItInC();
+}*/
+
+-(void)cPlusPlusHacker {
+    // addItInCPlusPlus();
 }
 
 /*

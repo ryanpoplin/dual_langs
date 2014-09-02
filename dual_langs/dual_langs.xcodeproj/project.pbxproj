@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AA7974419B57768000BC5EF /* c_hacker.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7974219B57768000BC5EF /* c_hacker.c */; };
+		5AA7974719B57785000BC5EF /* CPlusPlusHacker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7974519B57785000BC5EF /* CPlusPlusHacker.cpp */; };
+		5AA7974919B577F9000BC5EF /* File.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7974819B577F9000BC5EF /* File.metal */; };
 		5AFF166E19B5642100BC6243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF166D19B5642100BC6243 /* AppDelegate.swift */; };
 		5AFF167019B5642100BC6243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF166F19B5642100BC6243 /* ViewController.swift */; };
 		5AFF167319B5642100BC6243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF167119B5642100BC6243 /* Main.storyboard */; };
@@ -26,6 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AA7974119B57742000BC5EF /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		5AA7974219B57768000BC5EF /* c_hacker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = c_hacker.c; sourceTree = "<group>"; };
+		5AA7974319B57768000BC5EF /* c_hacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_hacker.h; sourceTree = "<group>"; };
+		5AA7974519B57785000BC5EF /* CPlusPlusHacker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPlusPlusHacker.cpp; sourceTree = "<group>"; };
+		5AA7974619B57785000BC5EF /* CPlusPlusHacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPlusPlusHacker.h; sourceTree = "<group>"; };
+		5AA7974819B577F9000BC5EF /* File.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = File.metal; sourceTree = "<group>"; };
 		5AFF166819B5642100BC6243 /* dual_langs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dual_langs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFF166C19B5642100BC6243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AFF166D19B5642100BC6243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,14 +88,20 @@
 		5AFF166A19B5642100BC6243 /* dual_langs */ = {
 			isa = PBXGroup;
 			children = (
+				5AFF168A19B5654100BC6243 /* dual_langs-Bridging-Header.h */,
+				5AFF167119B5642100BC6243 /* Main.storyboard */,
+				5AA7974119B57742000BC5EF /* MyPlayground.playground */,
 				5AFF166D19B5642100BC6243 /* AppDelegate.swift */,
 				5AFF166F19B5642100BC6243 /* ViewController.swift */,
-				5AFF167119B5642100BC6243 /* Main.storyboard */,
-				5AFF167419B5642100BC6243 /* Images.xcassets */,
-				5AFF166B19B5642100BC6243 /* Supporting Files */,
 				5AFF168B19B5654100BC6243 /* ObjCViewController.h */,
 				5AFF168C19B5654100BC6243 /* ObjCViewController.m */,
-				5AFF168A19B5654100BC6243 /* dual_langs-Bridging-Header.h */,
+				5AA7974319B57768000BC5EF /* c_hacker.h */,
+				5AA7974219B57768000BC5EF /* c_hacker.c */,
+				5AA7974619B57785000BC5EF /* CPlusPlusHacker.h */,
+				5AA7974519B57785000BC5EF /* CPlusPlusHacker.cpp */,
+				5AA7974819B577F9000BC5EF /* File.metal */,
+				5AFF167419B5642100BC6243 /* Images.xcassets */,
+				5AFF166B19B5642100BC6243 /* Supporting Files */,
 			);
 			path = dual_langs;
 			sourceTree = "<group>";
@@ -218,6 +233,9 @@
 				5AFF167019B5642100BC6243 /* ViewController.swift in Sources */,
 				5AFF166E19B5642100BC6243 /* AppDelegate.swift in Sources */,
 				5AFF168D19B5654100BC6243 /* ObjCViewController.m in Sources */,
+				5AA7974719B57785000BC5EF /* CPlusPlusHacker.cpp in Sources */,
+				5AA7974419B57768000BC5EF /* c_hacker.c in Sources */,
+				5AA7974919B577F9000BC5EF /* File.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +428,7 @@
 				5AFF168619B5642200BC6243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AFF168719B5642200BC6243 /* Build configuration list for PBXNativeTarget "dual_langsTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +437,7 @@
 				5AFF168919B5642200BC6243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
